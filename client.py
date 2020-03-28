@@ -2,7 +2,7 @@ import socket
 import time
 
 
-client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # AF_INET is IPv4 and SOCK_DGRAM is a UDP protocol
+client = socket.socket(socket.AF_INET6, socket.SOCK_DGRAM) # AF_INET6 is IPv6 and SOCK_DGRAM is a UDP protocol
 SERVER = input("Set the IP server: ")
 PORT = 12000  # Port default: 12000
 my_time = 60 * 15   # Default 900 seconds

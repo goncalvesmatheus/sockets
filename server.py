@@ -1,6 +1,6 @@
 import socket
 
-serverpy = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # AF_INET is IPv4 and SOCK_DGRAM is a UDP protocol
+serverpy = socket.socket(socket.AF_INET6, socket.SOCK_DGRAM) # AF_INET is IPv6 and SOCK_DGRAM is a UDP protocol
 serverpy.bind(('', 12000)) # IP server and default port ('' means a localhost)
 print('Server started!')
 
