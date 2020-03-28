@@ -1,4 +1,4 @@
-# Sockets Project
+# Socket Project
 Using Python3 to create a sockets server and sockets client.
 
 
